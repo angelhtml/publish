@@ -6,7 +6,7 @@ let counter = 0
 
 function Ready(){
 
-    version.innerHTML = "version 4.0"
+    version.innerHTML = "version 4.1"
 
     count_display.innerHTML = (`count : ${counter}`)
 }
