@@ -10,7 +10,7 @@ body{
 }
 .navbar{
     background-color: var(--color1);
-    height: 3rem;
+    height: 10rem;
     display: flex;
     align-items: center;
 }
