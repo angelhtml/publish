@@ -10,7 +10,7 @@ body{
 }
 .navbar{
     background-color: var(--color1);
-    height: 1.5rem;
+    height: 2rem;
     display: flex;
     align-items: center;
 }
@@ -44,6 +44,9 @@ body{
     cursor: pointer;
     border-radius: 10px;
     font-weight: 600;
+    &:hover{
+        background-color: var(--color2);
+    }
 }
 
 @keyframes spin{
