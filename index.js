@@ -5,7 +5,7 @@ let count_display = document.querySelector(".countdisplay")
 let counter = 0
 
 function Ready(){
-    version.innerHTML = "version 3.1"
+    version.innerHTML = "version 3.2"
     count_display.innerHTML = (`count : ${counter}`)
 }
 
