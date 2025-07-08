@@ -51,6 +51,14 @@ body{
         background-color: var(--color2);
     }
 }
+.title{
+    animation-name: colors;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
 
 @keyframes spin{
     0%{
@@ -58,5 +66,14 @@ body{
     }
     100%{
         transform: rotate(360deg);
+    }
+}
+
+@keyframes colors{
+    0%{
+        color: #f000bc;
+    }
+    100%{
+        color: #dfc800;
     }
 }
